@@ -28,6 +28,7 @@ if len(open_slots)>0:
     # print(open_slots)
 driver.close()
 
+
 def send_email(user, pwd, recipient, subject, body):
     import smtplib
     gmail_user = user
