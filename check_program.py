@@ -33,7 +33,7 @@ try:
     time.sleep(1)
     assert "Login programator" in driver.title
     driver.find_element_by_id("txt_username").send_keys("alexsam20032003@yahoo.com")
-    driver.find_element_by_id("txt_password").send_keys("33Locked")
+    driver.find_element_by_id("txt_password").send_keys("")
     driver.find_element_by_id("btn_login").click()
     time.sleep(2)
     assert "Scoala de soferi Hey Moto" in driver.title
