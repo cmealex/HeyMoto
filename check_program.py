@@ -56,9 +56,9 @@ try:
         # print(open_slots)
 
 except:
-    send_email("alexrinf", "4Testing", to_list, "EROARE la programator HeyMoto", "Something went wrong")
+    send_email("alexrinf", "pass4T", to_list, "EROARE la programator HeyMoto", "Something went wrong")
 finally:
     driver.close()
 
 if msg is not None:
-    send_email("alexrinf", "4Testing", to_list, "Liber la programator HeyMoto", msg)
+    send_email("alexrinf", "pass4T", to_list, "Liber la programator HeyMoto", msg)
